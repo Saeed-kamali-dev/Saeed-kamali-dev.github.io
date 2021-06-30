@@ -1,0 +1,57 @@
+.navbar {
+    padding-bottom: 0;
+    padding-top: 20px;
+}
+.bg-light {
+    background-color: transparent !important;
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.2),rgba(0,0,0,0));
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255,255,255,0.65);
+    font-size: 0.9rem;
+}
+.navbar-light .navbar-nav .nav-link.active {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:focus {
+    color: rgba(255,255,255,0.8)
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(255,255,255,0.9)
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar-light .navbar-toggler {
+    border: 0;
+    margin: 0 1rem;
+}
+.navbar-collapse {
+    background-color: rgba(0,0,0,0.2);
+    padding: 0 2rem;
+}
+@media only screen and (min-width: 991px) {
+    .navbar-collapse {
+        background-color: transparent !important;
+        padding: 0 2rem;
+    }
+    .navbar-light .navbar-brand {
+        right: 50px;
+    }
+}
+.btn-check:focus + .btn, .btn:focus {
+    box-shadow: none;
+}
+.btn {
+    color: #fff;
+}
+.btn:hover {
+    background-color: #fff;
+}
+.btn-sabt {
+    background-color: #fff;
+    color: black;
+}
+.last-works .row > * {
+    padding: 0;
+}
